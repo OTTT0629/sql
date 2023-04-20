@@ -20,7 +20,7 @@ drop table if exists tb_end_service;
 create table tb_end_service
 (
 	end_service_no	bigint	not null	primary key,
-	end_date	dat	not null
+	end_date	date	not null
 );
 
 drop table if exists tb_ott;
